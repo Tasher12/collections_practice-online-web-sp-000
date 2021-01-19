@@ -29,7 +29,7 @@ end
 def kesha_maker(str)
   str.each do 
     |a| a(3) + "$"
-    
+    str.insert(index, str2)
   end 
 end 
 
