@@ -37,7 +37,7 @@ def find_a(str)
 end 
 
 def sum_array(num)
-  
+  num.inject(0) {|
 
 
 
