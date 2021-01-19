@@ -42,7 +42,7 @@ end
 
 def add_s(str)
   str.each_with_index.collect do |element, index|
-    element[element.push] = "s" unless index == 1
+    element.push[element] = "s" unless index == 1
   end 
 end
 
