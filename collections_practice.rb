@@ -37,6 +37,7 @@ def find_a(str)
     if i.start_with?("a") 
       return i 
     end 
+  end   
 end 
     
 
