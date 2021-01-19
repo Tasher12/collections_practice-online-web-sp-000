@@ -40,6 +40,10 @@ def sum_array(num)
   num.inject(0) {|sum, number| sum + number}
 end 
 
+def add_s(str)
+  str.each_with_index.collect do |element, index|
+    while 
+
 
 
 
