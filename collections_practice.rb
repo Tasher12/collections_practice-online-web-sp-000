@@ -35,6 +35,21 @@ end
 def find_a(str)
   str.select {|i| i.start_with?("a")}
 end 
+
+def sum_array(num)
+  
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
