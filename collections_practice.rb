@@ -32,3 +32,14 @@ def kesha_maker(str)
   end 
 end 
 
+def find_a(str)
+  str.start_with? 
+
+
+
+
+
+
+
+
+
