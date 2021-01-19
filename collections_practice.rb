@@ -27,8 +27,8 @@ def reverse_array(num)
 end
 
 def kesha_maker(str)
-  str.length.each do 
-    |a| a.gsub(3) < "$"
+  str.each do 
+    |a| a.gsub!(3) < "$"
   end 
 end 
 
