@@ -34,7 +34,7 @@ end
 
 def find_a(str)
   str.each.collect do |i|
-    i.start_with?("a")
+    if i.start_with?("a")
       puts "#{i}"
   end
 end
