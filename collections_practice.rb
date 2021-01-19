@@ -30,6 +30,5 @@ def kesha_maker(str)
   str.each do 
     |a| a.gsub!(3)= "$"
   end 
-  end 
 end 
 
