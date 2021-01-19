@@ -28,7 +28,7 @@ end
 
 def kesha_maker(str)
   str.each do 
-    |a| a[2] + "$"
+    |a| a(3) + "$"
   end 
 end 
 
