@@ -36,6 +36,7 @@ def find_a(str)
   str.each.map do |i| 
     if i.start_with?("a") 
       return i 
+    end 
 end 
     
 
