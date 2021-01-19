@@ -43,7 +43,6 @@ end
 def add_s(str)
   str.each_with_index.collect do |element, index|
     element[element.length] = "s" unless index == 1
-    end
   end 
 end
 
