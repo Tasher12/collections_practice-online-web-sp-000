@@ -44,6 +44,9 @@ def add_s(str)
   str.each_with_index.collect do |element, index|
     while element[index] != str[2]
       element[index.length] = "s"
+    end
+  end
+end
 
 
 
