@@ -35,7 +35,7 @@ end
 def find_a(str)
   str.each.collect do |i|
     i.start_with?("a")
-      puts ${i}
+      puts #{i}
   end
 end
 
