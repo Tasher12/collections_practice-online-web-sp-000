@@ -26,6 +26,7 @@ def reverse_array(num)
   num.reverse_each.sort { |h, index| h[index] }
 end
 
-
+def kesha_maker(str)
+  str.each do {|a| a[2] 
 
 
