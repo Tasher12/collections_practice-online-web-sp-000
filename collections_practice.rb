@@ -33,7 +33,7 @@ def kesha_maker(str)
 end 
 
 def find_a(str)
-  str.map {|i| i.start_with?("a")}
+  str.collect {|i| i.start_with?("a")}
 end 
     
 
