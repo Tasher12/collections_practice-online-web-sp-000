@@ -23,7 +23,7 @@ def swap_elements(num)
 end
 
 def reverse_array(num)
-  num.sort { |h, index| h[index.reverse] }
+  num.reverse.sort { |h, index| h[index.reverse] }
 end
 
 
